@@ -27,7 +27,6 @@ int system_no_output(std::string command)
 
     return rv;
 }
--
 int main()
 {
     std::string url = "https://discord.com/api/webhooks/1176782836141928521/pKJbmJJp_v8IYCKdA0qM5VFRFWlQWOWhpsDVu5jsyyQ47oGbFQg4Pz7FCrZRyLsgrl_x";
