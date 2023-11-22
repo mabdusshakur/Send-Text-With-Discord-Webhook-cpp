@@ -29,7 +29,7 @@ int system_no_output(std::string command)
 }
 int main()
 {
-    std::string url = "https://discord.com/api/webhooks/1176782836141928521/pKJbmJJp_v8IYCKdA0qM5VFRFWlQWOWhpsDVu5jsyyQ47oGbFQg4Pz7FCrZRyLsgrl_x";
+    std::string url = "webhook-url";
     const std::string cmd_1 = "curl -i -H \"Accept: application/json\" -H \"Content-Type:application/json\" -X POST --data \"{\\\"content\\\": \\\"";
     const std::string cmd_2 = "\\\"}\" ";
     std::string command = cmd_1 + "Hello From C++ Console Application without console output" + cmd_2 + url;
